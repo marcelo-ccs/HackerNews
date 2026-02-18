@@ -6,7 +6,7 @@ A RESTful API built with .NET 10 that fetches and serves the best stories from H
 
 - **Best Stories Endpoint**: Retrieve the top N best stories from Hacker News
 - **In-Memory Caching**: Configurable cache duration to reduce API calls
-- **Resilience Patterns**: Built-in retry logic and circuit breaker using Polly
+- **Resilience Patterns**: Built-in retry logic and circuit breaker using Standard resilience handler
 - **Concurrent Processing**: Efficiently fetches multiple stories in parallel
 - **OpenAPI Support**: Interactive API documentation in development mode
 - **Configurable Limits**: Control max stories, concurrency, and cache settings
